@@ -1,8 +1,8 @@
 package dragonBall;
 
 public class Sayajin extends PersonagemDragonBall {
-    int nivelMaximoSSJ = 0;
-    boolean temRabo;
+    private int nivelMaximoSSJ = 0;
+    private boolean temRabo;
 
     //<- Nivel Maximo SSJ ->
     public void setNivelMaximoSSJ(int nivelMaximoSSJ) {
@@ -18,7 +18,7 @@ public class Sayajin extends PersonagemDragonBall {
     }
 
     //Irá retornar se o Sayajin poderá ou não se transformar
-    public static boolean transformar(Sayajin personagem, int nivelSaiyajin) {
+    protected static boolean transformar(Sayajin personagem, int nivelSaiyajin) {
         if (personagem.getNome().equals("Goku") || personagem.getNome().equals("Vegeta") && (nivelSaiyajin == 4 || nivelSaiyajin == 5)) {
             System.out.printf("%s transformou para super saiyajin nível %d%n", personagem.getNome(), nivelSaiyajin);
             return true;

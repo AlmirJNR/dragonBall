@@ -1,8 +1,8 @@
 package dragonBall;
 
 public class Terraqueo extends PersonagemDragonBall {
-    String pais = "";
-    String cidade = "";
+    private String pais = "";
+    private String cidade = "";
 
     //<- Pais ->
     public void setPais(String pais) {
