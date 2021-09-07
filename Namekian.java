@@ -4,7 +4,7 @@ import java.io.PrintStream;
 
 public class Namekian extends PersonagemDragonBall{
     private int quantidadeEsferas = 0;
-    private boolean podeCurar;
+    //=>private boolean podeCurar;
 
     //<- QuantidadeEsferas ->
     public void setQuantidadeEsferas(int quantidadeEsferas) {
@@ -15,9 +15,9 @@ public class Namekian extends PersonagemDragonBall{
     }
 
     //<- Pode Curar ->
-    public void setPodeCurar(boolean podeCurar) {
-        this.podeCurar = podeCurar;
-    }
+    //=>public void setPodeCurar(boolean podeCurar) {
+    //=>    this.podeCurar = podeCurar;
+    //=>}
 
     //Irá retornar o pedido feito para as esferas do dragão
     protected static PrintStream transformarPedido(String pedido) {

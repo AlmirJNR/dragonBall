@@ -2,7 +2,7 @@ package dragonBall;
 
 public class Sayajin extends PersonagemDragonBall {
     private int nivelMaximoSSJ = 0;
-    private boolean temRabo;
+    //=>private boolean temRabo;
 
     //<- Nivel Maximo SSJ ->
     public void setNivelMaximoSSJ(int nivelMaximoSSJ) {
@@ -13,9 +13,9 @@ public class Sayajin extends PersonagemDragonBall {
     }
 
     //<- Tem Rabo ->
-    public void setTemRabo(boolean temRabo) {
-        this.temRabo = temRabo;
-    }
+    //=>public void setTemRabo(boolean temRabo) {
+    //=>    this.temRabo = temRabo;
+    //=>}
 
     //Irá retornar se o Sayajin poderá ou não se transformar
     protected static boolean transformar(Sayajin personagem, int nivelSaiyajin) {

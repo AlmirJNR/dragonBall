@@ -21,7 +21,7 @@ public class app {
 
         //Atribuindo valores de atributos para a instância do objeto da subclasse Sayajin
         goku.setNivelMaximoSSJ(5);
-        goku.setTemRabo(true);
+        //=>goku.setTemRabo(true);
         //Atribuindo valores de atributos para a instância do objeto da superclasse PersonagemDragonBall
         goku.setNome("Goku");
         goku.setIdade(35);
@@ -32,7 +32,7 @@ public class app {
 
         //Atribuindo valores de atributos para a instância do objeto da subclasse Sayajin
         gohan.setNivelMaximoSSJ(2);
-        gohan.setTemRabo(false);
+        //=>gohan.setTemRabo(false);
         //Atribuindo valores de atributos para a instância do objeto da superclasse PersonagemDragonBall
         gohan.setNome("Gohan");
         gohan.setIdade(20);
@@ -43,7 +43,7 @@ public class app {
 
         //Atribuindo valores de atributos para a instância do objeto da subclasse Namekian
         dende.setQuantidadeEsferas(7);
-        dende.setPodeCurar(true);
+        //=>dende.setPodeCurar(true);
         //Atribuindo valores de atributos para a instância do objeto da superclasse PersonagemDragonBall
         dende.setNome("Dendê");
         dende.setIdade(600);
