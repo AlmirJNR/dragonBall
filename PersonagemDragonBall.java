@@ -1,12 +1,12 @@
 package dragonBall;
 
 public class PersonagemDragonBall {
-    String nome = "";
-    int idade = 0;
-    char sexo = 0;
-    int temporada = 0;
-    int ki = 0;
-    String poderEspecial = "";
+    private String nome = "";
+    private int idade = 0;
+    private char sexo = 0;
+    private int temporada = 0;
+    private int ki = 0;
+    private String poderEspecial = "";
 
     //<- Nome ->
     public void setNome(String nome) {
