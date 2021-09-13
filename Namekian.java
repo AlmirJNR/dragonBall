@@ -1,8 +1,15 @@
 package dragonBall;
 
-public class Namekian extends PersonagemDragonBall{
+public class Namekian extends PersonagemDragonBall {
     private int quantidadeEsferas = 0;
     //=>private boolean podeCurar;
+
+    //Construtor Completo
+    Namekian(String nome, int idade, char sexo, int temporada, int ki, String poderEspecial, int quantidadeEsferas) {//, boolean podeCurar) {
+        super(nome, idade, sexo, temporada, ki, poderEspecial);
+        this.quantidadeEsferas = quantidadeEsferas;
+        //this.podeCurar = podeCurar;
+    }
 
     //<- QuantidadeEsferas ->
     public void setQuantidadeEsferas(int quantidadeEsferas) {

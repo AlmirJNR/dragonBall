@@ -8,6 +8,16 @@ public class PersonagemDragonBall {
     private int ki = 0;
     private String poderEspecial = "";
 
+    //Construtor Completo
+    PersonagemDragonBall(String nome, int idade, char sexo, int temporada, int ki, String poderEspecial) {
+        this.nome = nome;
+        this.idade = idade;
+        this.sexo = sexo;
+        this.temporada = temporada;
+        this.ki = ki;
+        this.poderEspecial = poderEspecial;
+    }
+
     //<- Nome ->
     public void setNome(String nome) {
         this.nome = nome;
