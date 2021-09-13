@@ -57,6 +57,6 @@ public class app {
         Sayajin.transformar(gohan, 5);
 
         //Passando os string como parâmetros no método transformarPedido da classe Namekian
-        Namekian.transformarPedido("Reviver o Kuririn");
+        System.out.println(Namekian.transformarPedido("Reviver o Kuririn"));  
     }
 }

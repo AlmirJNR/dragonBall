@@ -1,7 +1,5 @@
 package dragonBall;
 
-import java.io.PrintStream;
-
 public class Namekian extends PersonagemDragonBall{
     private int quantidadeEsferas = 0;
     //=>private boolean podeCurar;
@@ -20,8 +18,37 @@ public class Namekian extends PersonagemDragonBall{
     //=>}
 
     //Irá retornar o pedido feito para as esferas do dragão
-    protected static PrintStream transformarPedido(String pedido) {
-        return System.out.printf("Pedido efetuado e traduzido com sucesso, seu entendimento da lingua é nula...%nVou facilitar e te devolver de maneira que possa entender: " + pedido);
+    protected static String transformarPedido(String pedido) {
+        String pedidoTraduzido = "";
+
+        for (int i = 0; i < pedido.length(); i++) {
+            switch (pedido.charAt(i)) {
+                case 'a':
+                    pedidoTraduzido += 'z';
+                    break;
+
+                case 'e':
+                    pedidoTraduzido += 'y';
+                    break;
+
+                case 'i':
+                    pedidoTraduzido += 'x';
+                    break;
+
+                case 'o':
+                    pedidoTraduzido += 'w';
+                    break;
+
+                case 'u':
+                    pedidoTraduzido += 'v';
+                    break;
+                
+                default:
+                    pedidoTraduzido += pedido.charAt(i);
+                    break;
+            }
+        }
+        return pedidoTraduzido;
     }
 
 }
